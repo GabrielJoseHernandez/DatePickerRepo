@@ -13,8 +13,66 @@
 
 </head>
 
-<BODY>
+  <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<div class="container body-content">
+        
+
+<h2>Date Picker</h2>
 
 
-</BODY>
+<div class="row">
+    <div class="col-lg-3">
+        <label>Start Date:</label>
+
+       <input type="text" id="datepicker" class="form-control"/>
+    </div>
+    <div class="col-lg-3">
+        <label>Number of days:</label>
+        <input id="daysToAdd" type="number" required class="form-control" />
+    </div>
+    <div class="col-lg-3">
+    <label>Country Code:</label>
+    	<input type="text" name="countryCode" id="countryCodeTxt" class="form-control">
+    </div>
+    <div class="col-lg-3">
+        <br />
+        <input type="button" value="Generate" onclick="calculate();" class="btn btn-success" />
+    </div>
+
+</div><br /><br />
+
+<!--Dinamic content go here-->
+<div id="Canvas" style="display:flex; flex-direction:row; flex-wrap:wrap;">
+
+</div>
+
+
+
+
+<!-- footer -->
+        <hr />
+        <footer class="after-box">
+            <p>&copy; Date Picker App</p>
+        </footer>
+    </div>
+
+
+    <script type="text/javascript" src="js/site.js"></script>
+
+	</BODY>
 </HTML>

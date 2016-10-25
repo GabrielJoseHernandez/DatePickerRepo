@@ -1,0 +1,32 @@
+    .box {
+        margin-left: 4vw;
+        margin-bottom: 2vh;
+    }
+
+    .lock {
+        background:none!important;
+        background-color: silver!important;
+        color: silver!important;
+    }
+
+	.weekendColor{
+
+	        background:none!important;
+	        background-color: rgba(255,255,0,0.3)!important;
+	        color: black!important;
+	}
+
+
+    .holidayColor{
+
+            background:none!important;
+            background-color: rgba(255, 153, 0,0.3)!important;
+            color: black!important;
+    }
+
+     .weekdayColor{
+
+            background:none!important;
+            background-color: rgba(173,255,47, 0.3)!important;
+            color: black!important;
+    }
